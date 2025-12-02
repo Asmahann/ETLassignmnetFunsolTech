@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/animals_etl/__init__.py
+src/animals_etl/client.py
+src/animals_etl/etl.py
+src/animals_etl/main.py
+src/animals_etl/models.py
+src/animals_etl.egg-info/PKG-INFO
+src/animals_etl.egg-info/SOURCES.txt
+src/animals_etl.egg-info/dependency_links.txt
+src/animals_etl.egg-info/requires.txt
+src/animals_etl.egg-info/top_level.txt
+tests/test_batching.py
+tests/test_models.py

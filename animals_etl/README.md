@@ -39,6 +39,8 @@ By default the ETL targets `http://localhost:3123`. You can override this with:
 ANIMALS_API_BASE_URL="http://localhost:3123" python -m animals_etl.main
 ```
 
+The command exits with status code `0` on success and `1` if the ETL run fails.
+
 ### Testing & Linting
 
 ```bash
@@ -46,5 +48,6 @@ pytest
 ruff check .
 mypy .
 ```
+
 
 
